@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shape_Up_Or_Shape_Out</title>
+  </head>
+  <body>
+    <div class="control container">
+      <div class="heading"><h2>Add a Shape!</h2></div>
+
+      <div class="input-group">
+        <button id="rectangleBtn" class="col-3 btn btn-danger">
+          Add rectangle
+        </button>
+        <input
+          id="txtRectHeight"
+          type="text"
+          class="col-4 form-control"
+          placeholder="height px:"
+        />
+        <input
+          id="txtRectWidth"
+          type="text"
+          class="col-4 form-control"
+          placeholder="width px:"
+        />
+      </div>
+      <div class="input-group">
+        <input
+          id="txtSquareLength"
+          type="text"
+          class="col-9 form-control"
+          placeholder="side length px:"
+        />
+        <button id="squareBtn" class="col-2 btn btn-danger">Add Square</button>
+      </div>
+
+      <div class="input-group">
+        <button id="circleBtn" class="col-2 btn btn-danger">Add Circle</button>
+        <input
+          id="txtCircleRadius"
+          type="text"
+          class="col-9 form-control"
+          placeholder="radius px:"
+        />
+      </div>
+      <div class="input-group">
+        <input
+          id="txtTriangleLength"
+          type="text"
+          class="col-9 form-control"
+          placeholder="height px:"
+        />
+        <button id="triangleBtn" class="col-2 btn btn-danger">
+          Add Triangle
+        </button>
+      </div>
+      <div class="data_container d-flex mt-5">
+        <div class="display_area" id="display_area"></div>
+        <div>
+          <ul class="list-group ml-5">
+            <div>
+              Shape
+              <li class="list-group-item col-12" id="shape">Shape</li>
+            </div>
+            <div>
+              Height
+              <li class="list-group-item col-12" id="height">Height</li>
+            </div>
+            <div>
+              Width
+              <li class="list-group-item col-12" id="width">Width</li>
+            </div>
+
+            <div>
+              Area
+              <li class="list-group-item col-12" id="area">Area</li>
+            </div>
+            <div>
+              Perimeter
+              <li class="list-group-item col-12" id="perimeter">Perimeter</li>
+            </div>
+            <div>
+              Radius
+              <li class="list-group-item col-12" id="radius">Radius</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <!-- end data container -->
+    </div>
+    <!-- end control container -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
