@@ -31,12 +31,6 @@
   border-radius: 50%;
   position: absolute;
 }
-.triangle {
-  background-color: yellow;
-  position: absolute;
-  /* border-bottom: 100px solid rgb(241, 241, 107);
-  border-right: 100px solid transparent;  */
-}
 
 .triangles {
   position: absolute;
